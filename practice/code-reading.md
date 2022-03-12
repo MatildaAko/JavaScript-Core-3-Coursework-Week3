@@ -15,6 +15,7 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
+The console log on line 5 is for the x that is inside the function while the console log on line 7 is for the x on line 1 with a global scope
 
 ## Question 2
 
@@ -34,6 +35,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+line 33 will print 10 as the local scope can read from the global scope but line 34 will be undefined as the global scope cannot read the local scope variables
 
 ## Question 3
 
@@ -62,3 +65,4 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+x is a constant variable so can't be changed, y is also a constant variable but because y is an object, the type can never be changed but the values within the object can.
